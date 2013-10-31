@@ -1,0 +1,27 @@
+<html>
+
+<script>
+//create a object out of each card space which looks like this
+
+{"rowX": 0, "rowY": 14, "value": "open"}
+{"rowX": 9, "rowY": 0, "value": "open" }
+{"rowX":1, "rowY": 3, "value": "closed"}
+
+// from there we can do something like
+
+count (object.rowY = 14 && object.value = "open")
+if (count >= 5) 
+	{
+		//figure out how many different combinations can be created for 5 unique cards using the total number of spaces 
+		/*	ie: _ _ _ _ _ _ _  means 
+			 	1 2 3 4 5 _ _ 
+			 	_ 1 2 3 4 5 _
+			 	_ _ 1 2 3 4 5
+			 	1 _ 2 3 4 5 _
+			 	etc....
+		*/
+	}
+
+</script>
+
+</html>
